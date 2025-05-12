@@ -1,0 +1,20 @@
+package String_in_Java;
+
+public class String_functions {
+	
+	public static void main(String[] args) {
+		
+		// String is predefined class in java.lang 
+		// that's why it starts with uppercase
+		// it has many predefined functions/methods which we can use directly to perform different operation 
+		
+		String s= "Manas QA";
+		
+		// Length function
+		
+		int a = s.length();
+		
+		
+	}
+
+}

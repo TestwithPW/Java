@@ -1,0 +1,85 @@
+package java_package;
+
+import java.util.Scanner;
+
+public class blank_page {
+	
+	public static void main(String[] args) {
+		
+		// table of any number in the format 
+		for (int i=1;i<=10;i++) {
+			System.out.println("2 " + "*" + i +" = " + + i*2);
+		}
+		
+		
+		int i=15;
+		if(i%2==0) {
+			System.out.println(i+ "  is even number ");
+		}
+		else {
+			System.out.println(i+ "  is odd number ");
+		}
+		
+		
+		for (int j=1;j<=10;j++) {
+			
+			if(j%2==0) {
+				System.out.println(j+ "  is even number ");
+			}
+			else {
+				System.out.println(j+ "  is odd number ");
+			}
+			
+		}
+		
+		// swap the number 
+		int p=10; int q= 20;
+		
+		p= p +q; 
+		q= p -q;
+		p= q+q;
+		System.out.println("value of q :" +q);
+		System.out.println("value of p:" +p);
+		
+		int a = 10; int b= 20;
+		 a = a*b;
+		 b= a/b;
+		 a= a/b;
+		 System.out.println("value of a :" +a + " and value of b :" +b);
+		 
+		 // prime number
+		 Scanner sc = new Scanner(System.in);
+		 System.out.println("Enter the number : ");
+		 int k = sc.nextInt(); 
+		 boolean isprime = true;
+		 
+		 
+		 if(k<=1) {
+			isprime =false;
+		 }else {
+			 for(int l=2; l<k;l++) {
+				 
+		 		if(k%l==0) {
+				isprime =false;	
+				break;
+				
+		 		}	 
+			 }
+		 }
+			 if(isprime) {
+				
+				System.out.println(k + " is a prime number");
+				
+			 }else {
+			 	System.out.println(k +" is not a prime number ");
+			 
+			 }
+		 } 
+		 
+		 
+		 // fibonacci series
+		 
+		 // reverse number 
+		 
+
+}

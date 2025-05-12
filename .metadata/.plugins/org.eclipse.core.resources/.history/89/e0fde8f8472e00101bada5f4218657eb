@@ -1,0 +1,10 @@
+package Conditional_statements_if_else.Daily_class_and_pracitce;
+
+public class Java_class {
+
+	
+	public static void main(String[] args){
+		System.out.println("Hello..!!!");
+	}
+
+}

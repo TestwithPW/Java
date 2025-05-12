@@ -1,0 +1,84 @@
+package Statements_keywords_in_java;
+
+public class continue_keyword_for_loop {
+	
+	public static void main(String[] args) { 
+		
+		// continue helps to skip a execution for a condition that's why its written before the condition gets executed
+		
+		
+			System.out.println("continue when i=7 : ");
+			System.out.println(" ");
+			for (int i=1; i<=10; i++) { 
+			
+			if(i==7) {
+				continue;
+			}
+			System.out.println("value of i : " + i);
+			
+			}
+			
+			System.out.println("continue when i!=7 : ");
+			System.out.println(" ");
+			for (int i=1; i<=10; i++) { 
+//			System.out.println(i!=7);
+			if(i!=7) {
+				continue ;  // here is won't execute anything
+			}
+			System.out.println("value of i : " + i);
+			
+			}
+			
+			System.out.println("break when i>7 : ");// it will print 1-6 only 
+			System.out.println(" ");
+			for(int i=1; i<=10; i++) { //in this case the if condition is false until i>7 
+				
+				if(i>7) {
+					break;
+				}
+				System.out.println("value of i : " + i);
+			}
+			
+			System.out.println("break when i=7 or i=9 : "); // it will print 1-6 only 
+			System.out.println(" ");		
+			for(int i=1; i<=10; i++) { 
+				System.out.println(i==7 || i==9);
+				if(i==7 || i==9) { //in this case the if condition is false until i=7 
+					break;
+				}
+				System.out.println("value of i : " + i);
+				
+				
+			}
+			
+			System.out.println("break when i=7 and i=9 : "); // it will print 1-10 only 
+			System.out.println(" ");		
+			for(int i=1; i<=10; i++) { 
+				
+				System.out.println(i==7 && i==9);
+				
+				if(i==7 && i==9) { // in this case the if condition becomes false in all iterations 
+					break;
+				}
+				System.out.println("value of i : " + i);
+				
+				
+			}
+			
+			System.out.println("break when i!=7 and i!=9 : "); // it will print nothing
+			System.out.println(" ");		
+			for(int i=1; i<=10; i++) { 
+				
+				System.out.println(i==7 && i==9);
+				
+				if(i!=7 && i!=9) { // in this case the if condition becomes true in all iterations 
+					break;
+				}
+				System.out.println("value of i : " + i);
+				
+				
+			}
+		
+	}
+
+}

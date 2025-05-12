@@ -1,0 +1,63 @@
+package java_package;
+
+import java.util.Scanner;
+
+public class java_dailypractice {
+	
+	public static void main(String[] args) {
+	
+	// even-odd 
+	Scanner sc =new Scanner(System.in);
+	System.out.println("Enter number to check even/odd");
+	int a = sc.nextInt();
+	
+	if(a%2==0) {
+		System.out.println("a is even number");
+	}else {
+		System.out.println("a is odd number ");
+	}
+	
+	
+	// divisible by 3 
+	System.out.println("Enter nubmer to check if its divisible by 3 or not");
+	int b = sc.nextInt();
+	
+	if(b%3==0) {
+		System.out.println("b is divisible by 3");
+	}else {
+		System.out.println("b is not divisible by 3");
+	}
+	
+	
+	// palindrome number
+	System.out.println("Enter number to check if its palindrome or not");
+	int num = sc.nextInt();
+	int rev = 0;
+	
+	for(int l=1; l<=num; l++ ) {
+		
+		int rem = num%10; 
+		rev = rem20*10+rem;
+		num = num/10;
+		
+		
+	}
+	if (rev==num) {
+		System.out.println(" num : " + num + " is a palindrom number");
+		
+	}
+	else {
+		System.out.println(" num : \" + num + \" is not a palindrom number");
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+  }
+}
+

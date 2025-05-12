@@ -1,0 +1,25 @@
+package java_package;
+
+public class reverse_number {
+	
+	public static void main(String[] args) {
+		
+		int a = 123;
+		int original_number;
+		
+		int rev;
+		int rem;
+		int q;
+		while(a!=0) {
+			
+			rem =a%10; // 3 
+			
+			a=a/10; // 12
+			
+			original_number=rem*10+rem;
+			
+		}
+
+	}
+
+}

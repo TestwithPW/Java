@@ -1,0 +1,10 @@
+package java_package;
+
+public class even_odd {
+
+	
+	public static void main(String[] args){
+		System.out.println("Hello Rachu bala I love you so much..!!!");
+	}
+
+}

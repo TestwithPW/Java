@@ -1,0 +1,14 @@
+package java_package;
+
+public class while_loop {
+	
+	public static void main(String[] args) {
+		
+		int n=1;
+		
+		while(n>0) {
+			System.out.println("value of n is : " + n);
+			n++;
+		}
+	}
+}

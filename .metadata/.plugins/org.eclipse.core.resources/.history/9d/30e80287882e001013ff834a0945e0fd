@@ -1,0 +1,27 @@
+package String_in_Java;
+
+public class StringFunctionAssignment {
+	
+	public static void main(String[] args) {
+		
+		String a = "abcdef";
+		String b = "xyz1234";
+		String c = "abcxy";
+		
+		
+		if(a.length()>c.length() && a.length()<b.length()) {
+			System.out.println("PASS: length of string a is greater than c and less than b");	
+		}else {
+			System.out.println("FAIL: length of string a is not greater than c and less than b");
+		}
+		
+		if(a.equals(b) && a.equals(c)) {
+			System.out.println("PASS : String a is same as String b and String c");
+		}else {
+			System.out.println("FAIL : String a is not same as String b and String c");
+		}
+		
+		
+	}
+
+}

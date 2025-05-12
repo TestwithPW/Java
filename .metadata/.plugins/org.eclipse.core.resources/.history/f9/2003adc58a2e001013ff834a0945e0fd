@@ -1,0 +1,50 @@
+package String_in_Java;
+
+public class StringFunctionAssignment {
+	
+	public static void main(String[] args) {
+		
+		String a = "abcdef";
+		String b = "xyz1234";
+		String c = "abcxy";
+		
+		
+		// 1 
+		if(a.length()>c.length() && a.length()<b.length()) {  // PASS
+			System.out.println("PASS: length of string a is greater than c and less than b");	
+		}else {
+			System.out.println("FAIL: length of string a is not greater than c and less than b");
+		}
+		
+		// 2
+		if(!a.equals(b) && !a.equals(c)) { // FAIL
+			System.out.println("PASS : String a is not same as String b and String c");
+		}else {
+			System.out.println("FAIL : String a is same as String b and String c");
+		}
+		
+		// 3
+		if(c.equalsIgnoreCase(a)) { // FAIL
+			System.out.println("PASS : String c is same as String a");
+		}else {
+			System.out.println("FAIL : String c is not same as String a");
+		}
+		
+		//4 
+		if(a.contains("cd") && !a.contains("xy")) { // PASS
+			System.out.println("PASS : String a contains cd and doesn't contain xy");
+		}else {
+			System.out.println("FAIL : String a does't contain cd and contains xy");
+		}
+		
+		// 5
+		if(b.toUpperCase().contains("Z") && !b.toUpperCase().contains("z")) { // PASS
+			System.out.println("PASS : String b in uppercase contains Z and doesn't contain z");
+		}else {
+			System.out.println("FAIL : String b in uppercase contains z and doesn't contain Z");
+		}
+		
+		
+	}
+
+}

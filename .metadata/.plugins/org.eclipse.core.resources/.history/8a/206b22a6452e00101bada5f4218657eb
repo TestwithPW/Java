@@ -1,0 +1,54 @@
+package java_package;
+
+public class for_loop_in_java {
+	
+	public static void main(String[] args) {
+		 int a =10;
+		 
+		 int b= 20;
+		 
+		 int c = a*b;
+		 
+		 
+		for(int i=1; i<= 10 ; i++) {
+ 
+			 System.out.println( " c value is when is " + c + " - " + i);
+			
+	 	}
+		 
+	 	for(int i=1; i<= 10 ; i=i+2) {
+
+			 System.out.println( " c value is when is " + c + " - " + i);
+
+		}
+	 	
+	 	for(int i=2; i<= 10 ; i=i+2) {
+			
+	 		System.out.println( " c value is when is " + c + " - " + i);
+
+		}
+	 	
+	 	for(int i=1; i<= 20 ; i++) {// not print when  i =7, 17 
+	 		
+	 		if(i!=7 && i!=17) {
+	 			System.out.println( " c value is when is " + c + " - " + i);
+	 		}
+		}
+	 	
+	 	for(int i=1; i<= 20 ; i++) { // print when  i =7, 17 
+	 		
+	 		if(i==7 || i==17) { 
+	 			System.out.println( " c value is when is " + c + " - " + i);
+	 		}
+	 	}
+	 	
+	 	for(int i=1; i<= 100 ; i++) { // print when number is completly divisible by 28
+	 		
+	 		if(i%28==0) { 
+	 			System.out.println(  i);
+	 		}
+	 	}
+		
+	}
+
+}

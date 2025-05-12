@@ -1,0 +1,21 @@
+package java_package;
+
+public class infinite_for_loop {
+	
+	public static void main(String[] args) {
+		 
+		 
+//		for(;;) {
+//			System.out.println("infinite loop ");
+//
+//	 	}
+		
+		
+		for(int i=1; ;i++) {
+			System.out.println("infinite loop " + i);
+
+	 	}
+
+	}
+
+}

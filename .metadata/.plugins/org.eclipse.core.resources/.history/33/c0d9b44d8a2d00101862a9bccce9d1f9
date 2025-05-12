@@ -1,0 +1,19 @@
+package java_package;
+
+public class swap_numbers_without_using_third_variable {
+	
+	public static void main(String[] args) { 
+
+
+		// swap the number 
+		int p=33; int q= 74;
+		
+		p= p +q; 
+		q= p -q;
+		p= q+q;
+		System.out.println("value of q :" +q);
+		System.out.println("value of p:" +p);
+		
+	}
+
+}

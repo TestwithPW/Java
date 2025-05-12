@@ -1,0 +1,71 @@
+package operators_in_java;
+
+public class Operators {
+	
+	public static void main(String [] args) {
+		
+		
+		System.out.println(10+50); // 60
+		System.out.println(50-10); // 40
+		System.out.println(50*10); // 500
+		System.out.println(50/10); // 5
+		System.out.println(50%10); // 0
+		System.out.println(50==50); // true
+		
+		int a = 10;
+		int b = 20;
+		
+		System.out.println(a+b); // 30
+		System.out.println(b-a); // 20
+		System.out.println(a*b); // 200
+		System.out.println(b/a); // 2
+		System.out.println(b%a); // 0
+		
+		
+		// Incremental operators 
+		
+		System.out.println(a++); // 10
+		System.out.println(a); // 11
+		System.out.println(a++); // 11
+		System.out.println(a++); // 12
+		System.out.println(a);//13
+		
+		
+		// Decrement operators
+		
+		System.out.println(b--); // 20
+		System.out.println(b); // 19
+		System.out.println(b--); // 19
+		System.out.println(b--); // 18
+		System.out.println(b); // 17
+		
+		// incremental and decrement operator practice
+		int i = 10; 
+		int j = 20; 
+		int k = 5;
+		int l = 10;
+		
+		System.out.println(k-- + k-- + l-- + i++ + l-- + j++); // 60
+		System.out.println(j++ + k-- + i-- +l--); // 45 
+		System.out.println(j++ + k-- + l-- + l++ + l--);// 50
+		System.out.println(j-k*l);//15
+		System.out.println(i+j+k+l);//42
+		
+		
+		
+		System.out.println(i++ + ++j + l++ + i++ + l-- + --l + ++i ); // 76
+		System.out.println(i-- + --l + --i +l++); // 32 
+		System.out.println(i++ + ++j + k-- + --l);// 41
+		System.out.println(--i*--l);//33
+		System.out.println(i+j+k+l);//39
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

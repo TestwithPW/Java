@@ -1,0 +1,40 @@
+package java_package;
+
+import java.util.Scanner;
+
+public class java_dailypractice {
+	
+	public static void main(String[] args) {
+	
+	// even-odd 
+	Scanner sc =new Scanner(System.in);
+	int a = sc.nextInt();
+	
+	if(a%2==0) {
+		System.out.println("a is even number");
+	}else {
+		System.out.println("a is odd number ");
+	}
+	
+	
+	// divisible by 3 
+	int b = sc.nextInt();
+	
+	if(b%3==0) {
+		System.out.println("b is divisible by 3");
+	}else {
+		System.out.println("b is not divisible by 3");
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+  }
+}
+

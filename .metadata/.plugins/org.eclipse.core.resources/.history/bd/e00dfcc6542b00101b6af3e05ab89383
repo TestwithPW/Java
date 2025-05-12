@@ -1,0 +1,86 @@
+package java_package;
+
+import java.util.Scanner;
+
+public class java_dailypractice {
+	
+	public static void main(String[] args) {
+	
+	// even-odd 
+	Scanner sc =new Scanner(System.in);
+	System.out.println("Enter number to check even/odd");
+	int a = sc.nextInt();
+	
+	if(a%2==0) {
+		System.out.println("a is even number");
+	}else {
+		System.out.println("a is odd number ");
+	}
+	
+	
+	// divisible by 3 
+	System.out.println("Enter nubmer to check if its divisible by 3 or not");
+	int b = sc.nextInt();
+	
+	if(b%3==0) {
+		System.out.println("b is divisible by 3");
+	}else {
+		System.out.println("b is not divisible by 3");
+	}
+	
+	
+	// palindrome number
+	System.out.println("Enter number to check if its palindrome or not");
+	int num = sc.nextInt();
+	int original = num; 
+	int rev = 0;
+	
+	while(num>0) {
+		
+		int rem = num%10; 
+		rev = rev*10+rem;
+		num = num/10;
+		
+		
+	}
+	System.out.println(rev);
+	if (rev==original) {
+		System.out.println( original + " is a palindrom number");
+		
+	}
+	else {
+		System.out.println( original + " is not a palindrom number");
+	}
+	
+	
+	// switch statement 
+	int k = 10;
+	int l=5;
+	int m=(k-l);
+	switch(m) {
+	
+	case 1: 
+		System.out.println("value of m is 5");
+	break;
+	case 2: 
+		System.out.println("value of m is 6");
+	break;
+	case 3: 
+		System.out.println("value of m is 7");
+	break;
+	
+	default :
+		System.out.println("value of m is not here");	
+	break;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+  }
+}
+

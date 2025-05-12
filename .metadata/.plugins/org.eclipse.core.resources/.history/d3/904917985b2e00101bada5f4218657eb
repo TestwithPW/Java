@@ -1,0 +1,39 @@
+package Statements_keywords_in_java;
+
+public class break_keyword_do_while_loop {
+	
+	public static void main(String[] args) {
+		
+		
+		int i =1 ;
+		
+		do {
+			
+			System.out.println("Value of i : " + i);
+			i++;
+			if(i==4) {
+				break;	
+			}
+			
+		}
+		while(i<=5);
+		
+		System.out.println("first loop stoped");
+		
+		do {
+			
+			System.out.println("Value of i : " + i);
+			i++;
+			if(i==4) {
+				break;	
+			}
+			
+		}
+		while(i<=5);
+		
+		
+		
+		
+	}
+
+}

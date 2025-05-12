@@ -1,0 +1,19 @@
+package String_in_Java;
+
+public class StringFunctionAssignment {
+	
+	public static void main(String[] args) {
+		
+		String a = "abcdef";
+		String b = "xyz1234";
+		String c = "abcxy";
+		
+		
+		if(a.length()>c.length() && a.length()<b.length()) {
+			
+		}
+		
+		
+	}
+
+}

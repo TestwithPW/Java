@@ -1,0 +1,32 @@
+package String_in_Java;
+
+public class String_functions {
+	
+	public static void main(String[] args) {
+		
+		// String is predefined class in java.lang 
+		// that's why it starts with uppercase
+		// it has many predefined functions/methods which we can use directly to perform different operation 
+		
+		String s= "Manas QA";
+		
+		// Length function return type int
+		
+		System.out.println(" lenght of the string s :" + s.length());
+		int a = s.length();
+		
+		// Startswith  - return type boolean
+		
+		System.out.println(s.startsWith("M"));
+		System.out.println(s.startsWith("Man"));
+		System.out.println(s.startsWith("Mani"));
+		
+		// Endsswith  - return type boolean
+		
+		System.out.println(s.startsWith("QA"));
+		System.out.println(s.startsWith(" QA"));
+		
+		
+	}
+
+}

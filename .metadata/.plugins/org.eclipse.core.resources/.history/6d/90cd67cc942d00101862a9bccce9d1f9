@@ -1,0 +1,31 @@
+package java_package;
+
+public class reverse_number {
+	
+	public static void main(String[] args) {
+		
+		int a = 123;
+		int original_number;
+		
+		int rev;
+		int rem;
+		for(int i=1;i<=a;i++) {
+			
+			rev =a%10; 
+			
+			rem=a/10;
+			
+			rev=rem*10+rem;
+			
+			
+		}
+		System.out.println(rev);
+		 
+		 
+		
+		
+		
+		
+	}
+
+}
