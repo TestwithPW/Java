@@ -1,0 +1,17 @@
+package Loops_in_java;
+
+public class Do_while_loop2 {
+	
+	public static void main(String[] args) {
+		 int i =1;
+		 
+		do{
+			System.out.println("value of i is : " + i ); // condition is false This means it will execute code at least once and that 's the difference 
+			                                             // between while and do-while loop Do_while_loop.java
+			i++;
+		}
+		while (i>5);
+		
+	}
+
+}
