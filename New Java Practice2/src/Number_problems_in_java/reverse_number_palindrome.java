@@ -1,0 +1,33 @@
+package Number_problems_in_java;
+
+public class reverse_number_palindrome {
+	
+	public static void main(String[] args) {
+		
+		int a = 5555;
+		int org =a;
+		
+		int rev = 0;
+		int rem=0;
+		int q;
+			while(a!=0) {
+				
+				rem =a%10; // 3 , 2
+				
+				a=a/10; // 12 , 1
+				
+				rev=rev*10+rem;
+				
+			} 
+			System.out.println(rev);
+		if(rev==org) {
+			System.out.println( " a is palindrome");
+		}
+		else {
+			System.out.println( " a is not a palindrome");
+		}
+
+	} 
+	
+
+}

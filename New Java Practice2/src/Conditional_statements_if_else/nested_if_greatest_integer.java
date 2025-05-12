@@ -1,0 +1,40 @@
+package Conditional_statements_if_else;
+
+public class nested_if_greatest_integer {
+
+	
+	public static void main(String[] args){
+		int a = 10; 
+		int b = 20;
+		int c = 30; 
+		
+		if (a>b && a>c) {
+			System.out.println("A is greater");
+			
+		} else
+		if (b>c){
+			System.out.println("B is greater");
+		}
+		
+		else {
+			System.out.println("C is greater");
+		}
+		
+		int i= 10; 
+		int j = 20;
+		int k = 30; 
+		
+		if (i<j && i<k) {
+			System.out.println("I is smaller");
+			
+		} else
+		if (j<k){
+			System.out.println("j is smaller");
+		}
+		
+		else {
+			System.out.println("k is smaller");
+		}
+	}
+
+}

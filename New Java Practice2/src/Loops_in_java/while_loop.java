@@ -1,0 +1,30 @@
+package Loops_in_java;
+
+public class while_loop {
+	
+	public static void main(String[] args) {
+		
+		int n=10;
+		
+		while(n>5) {
+			System.out.println("value of n is : " + n);
+			n++;
+		}
+		
+		while(n>0) {
+			System.out.println("value of n is : " + n);
+			n++;
+		}
+		
+		
+		while(n!=0) {
+			System.out.println("value of n is : " + n);
+			n++;
+		}
+		int i =0;
+		while(i<=0) {
+		System.out.println("value of n is : " + i);
+		i--;
+		}
+	}
+}
