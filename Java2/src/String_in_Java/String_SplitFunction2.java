@@ -91,7 +91,7 @@ public class String_SplitFunction2 {
 			
 		}
 		
-		// Test 
+		// Test 2
 
 	}
 }
